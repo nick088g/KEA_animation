@@ -1,0 +1,332 @@
+#screen {
+    margin: 0vw;
+    padding: 0vw;
+    position: relative;
+}
+
+#menu_background {
+    background-image: url(produktion/titelskaerm.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    width: 100vw;
+    height: 100vw;
+    z-index: 5;
+    position: absolute;
+    display: none;
+}
+
+#play {
+    background-image: url(produktion/play.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 22vw;
+    height: 10vw;
+    z-index: 7;
+    top: 24vw;
+    left: 4vw;
+    position: absolute;
+
+}
+
+#set {
+    background-image: url(produktion/settings.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 10vw;
+    height: 18vw;
+    z-index: 7;
+    top: 38vw;
+    left: 9vw;
+    position: absolute;
+}
+
+#start {
+    background-image: url(produktion/start.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80vw;
+    height: 100%;
+    position: absolute;
+    top: 4vw;
+    left: 12vw;
+    z-index: 6;
+    display: none;
+}
+
+#play2 {
+    background-image: url(produktion/play.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 14vw;
+    height: 10vw;
+    z-index: 7;
+    top: 36vw;
+    left: 31vw;
+    position: absolute;
+}
+
+#game {
+    position: relative;
+    width: 100vw;
+    height: 55vw;
+}
+
+#game_background {
+    background-image: url("produktion/bagogforgrund.svg");
+    background-size: cover;
+    width: 100vw;
+    height: 55vw;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    margin: auto;
+}
+
+#game_elements {
+    position: relative;
+}
+
+#oel {
+    background-image: url("produktion/oel.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 24vw;
+    position: relative;
+    left: 14vw;
+    bottom: 30vw;
+    z-index: 2;
+}
+
+#saft {
+    background-image: url("produktion/saft.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 24vw;
+    position: relative;
+    left: 30vw;
+    bottom: 53vw;
+    z-index: 2;
+}
+
+#kaffe {
+    background-image: url("produktion/kaffe.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 24vw;
+    position: relative;
+    left: 38vw;
+    bottom: 90vw;
+    z-index: 2;
+}
+
+#oel2 {
+    background-image: url("produktion/oel.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 24vw;
+    position: relative;
+    left: 51vw;
+    bottom: 120vw;
+    z-index: 2;
+}
+
+#saft2 {
+    background-image: url("produktion/saft.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 24vw;
+    position: relative;
+    left: 72vw;
+    bottom: 126vw;
+    z-index: 2;
+}
+
+#kaffe2 {
+    background-image: url("produktion/kaffe.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 24vw;
+    position: relative;
+    left: 60vw;
+    bottom: 146vw;
+    z-index: 2;
+}
+
+#oel3 {
+    background-image: url("produktion/oel.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 24vw;
+    position: relative;
+    left: 44vw;
+    bottom: 178vw;
+    z-index: 3;
+}
+
+#oel4 {
+    background-image: url("produktion/oel.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 24vw;
+    position: relative;
+    left: 22vw;
+    bottom: 215vw;
+    z-index: 3;
+}
+
+#oel5 {
+    background-image: url("produktion/oel.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 24vw;
+    position: relative;
+    left: 67vw;
+    bottom: 239vw;
+    z-index: 3;
+}
+
+#game_ui {
+    position: relative;
+
+}
+
+#points {
+    background-image: url("produktion/point.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 5vw;
+    height: 25vw;
+    position: relative;
+    left: 90vw;
+    bottom: 255vw;
+    z-index: 3;
+}
+
+#energy {
+    background-image: url(produktion/livroed.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 5vw;
+    height: 25vw;
+    position: relative;
+    left: 87vw;
+    bottom: 255vw;
+    z-index: 3;
+}
+
+#time {
+    background-image: url(produktion/ur.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 8vw;
+    height: 10vw;
+    position: relative;
+    bottom: 317vw;
+    left: 89vw;
+    z-index: 3;
+}
+
+#gameover {
+    background-image: url(produktion/duhartabt.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80vw;
+    height: 100%;
+    position: absolute;
+    top: 4vw;
+    left: 12vw;
+    z-index: 6;
+    display: none;
+
+}
+
+#levelcomplete {
+    background-image: url(produktion/tillykke.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80vw;
+    height: 100%;
+    position: absolute;
+    top: 4vw;
+    left: 12vw;
+    z-index: 6;
+    display: none;
+
+}
+
+#kryds {
+    background-image: url(produktion/kryds.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 8vw;
+    height: 6vw;
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+}
+
+#spiligen {
+    background-image: url(produktion/playagain.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 8vw;
+    height: 14vw;
+    top: 34vw;
+    left: 26vw;
+}
+
+#hus {
+    background-image: url(produktion/hus.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 8vw;
+    height: 14vw;
+    top: 34vw;
+    left: 42vw;
+}
+
+#settings {
+    background-image: url(produktion/settings_1.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80vw;
+    height: 100%;
+    position: absolute;
+    top: 4vw;
+    left: 12vw;
+    z-index: 6;
+    display: none;
+}
+
+#on {
+    background-image: url(produktion/on.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 8vw;
+    height: 3vw;
+    position: absolute;
+    top: 16vw;
+    left: 50vw;
+}
+
+#off {
+    background-image: url(produktion/off.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 8vw;
+    height: 3vw;
+    position: absolute;
+    top: 24vw;
+    left: 50vw;
+}
